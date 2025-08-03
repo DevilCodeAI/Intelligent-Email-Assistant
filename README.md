@@ -1,12 +1,11 @@
 # opensdk-agents
 Automated Ai agents using Opensdk
-# 📧 Smart-AI-Gmail-Responder
 
-An AI-based Gmail responder that reads unread emails using the Gmail API, generates intelligent replies using OpenAI's GPT model, and sends them automatically via your Gmail account.
+**An AI-based Gmail responder that reads unread emails using the Gmail API, generates intelligent replies using OpenAI's GPT model, and sends them automatically via your Gmail account.**
 
 ---
 
-## 📁 Project Contents
+## Project Contents
 
 | File                         | Description                                 |
 | ---------------------------- | ------------------------------------------- |
@@ -14,40 +13,24 @@ An AI-based Gmail responder that reads unread emails using the Gmail API, genera
 | `smart_gmail_ai_assistant.zip`   | Zipped version of the full project          |
 | `credentials.json`           | Google OAuth credentials (keep secure)      |
 | `keys.env`                   | Environment variables for secrets           |
-| `LICENSE`                    | MIT License                                 |
 | `README.md`                  | Project instructions                        |
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 1.  **Clone this repository:**
-    ```bash
-    git clone [https://github.com/Divanshu-all/opensdk-agents.git](https://github.com/Divanshu-all/opensdk-agents.git)
-    cd opensdk-agents
-    ```
-
-2.  **(Optional) Unzip the project:**
-    ```bash
-    unzip smart_gmail_ai_assistant.zip
-    ```
-
-3.  **Install required Python packages:**
-    ```bash
-    pip install openai google-api-python-client google-auth google-auth-oauthlib
-    ```
-
-4.  **Create a `keys.env` file** in the root folder with your secrets:
+2.  **Install required Python packages:**
+3.  **Create a `keys.env` file** in the root folder with your secrets:
     ```env
     OPENAI_API_KEY=your_openai_api_key_here
     EMAIL_USER=your_email@gmail.com
     ```
-
 5.  **Add your `credentials.json` file** from the Google Developer Console (for the Gmail API) to the project's root folder.
 
 ---
 
-## ▶️ Running the Assistant
+## Running the Assistant
 
 You can run the assistant in two ways:
 
@@ -72,7 +55,3 @@ You can run the assistant in two ways:
 * **Fully automated** workflow for processing unread emails.
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for full details.
